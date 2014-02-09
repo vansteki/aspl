@@ -1,0 +1,25 @@
+{
+  "author": "vansteki",
+  "name": "aspl",
+  "email" : "vansteki.tw@gmail.com",
+  "description": "Fetch .js assets on CDN that in an html file to current directory by just one command",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "keywords": [
+    "assets",
+    "file",
+    "pull"
+  ],
+  "main": "./aspl.js",
+  "bin": {
+    "aspl": "./bin/aspl"
+  },
+  "dependencies": {
+  	"colors": "*"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
