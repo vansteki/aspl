@@ -7,4 +7,4 @@ Fetch .js assets on CDN that in an html file to current directory by just one co
 
 ###Usage:
 
-    aspl index.html
+    aspl test.html
