@@ -5,7 +5,7 @@
   "description": "Fetch .js assets on CDN that in an html file to current directory by just one command",
   "version": "0.0.1",
   "repository": {
-    "url": ""
+    "url": "https://github.com/vansteki/aspl.git"
   },
   "keywords": [
     "assets",
