@@ -1,6 +1,8 @@
 aspl
 -------------
 
+my first npm package :)
+
 aspl(assets pull) 
 
 Fetch .js assets on CDN that in an html file to current directory by just one command.
