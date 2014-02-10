@@ -5,6 +5,10 @@ my first npm package :)
 
 Fetch .js assets on CDN that in an html file to current directory by just one command.
 
+###Install:
+    
+    npm install aspl -g
+
 ###Usage:
 
 you want to fetch javascript assets in test.html
