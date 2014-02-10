@@ -5,7 +5,11 @@ var http = require('http')
 	fs = require('fs')
 	arg = process.argv
 
-if (arg[2] == undefined) throw 'select a file'
+if (arg[2] == undefined) {
+	console.log("usage: aspl [filename]")
+	return false
+}
+
 var arr = fs.readFileSync(arg[2], 'utf8').split("\n")
 var context = arr.join('').toString()
 var match = context.match(/http.*.js/g)
